@@ -1,0 +1,14 @@
+name       : redo
+version    : 0.11
+release    : 1
+source     :
+    - https://github.com/apenwarr/redo/archive/redo-0.11.tar.gz : 2d7743e1389b538e2bd06117779204058fc0fcc0e05fd5ae14791d7f3fc3bcfa
+license    : LGPL-2.1
+component  : programming.tools
+summary    : redo is a competitor to the long-lived make program.
+description: |
+    redo is a competitor to the long-lived make program.
+setup      : |
+    %patch -p1 < $pkgfiles/redo-python.patch
+install    : |
+    %make_install

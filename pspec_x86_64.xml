@@ -1,0 +1,79 @@
+<PISI>
+    <Source>
+        <Name>redo</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>programming.tools</PartOf>
+        <Summary xml:lang="en">redo is a competitor to the long-lived make program.</Summary>
+        <Description xml:lang="en">redo is a competitor to the long-lived make program.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>redo</Name>
+        <Summary xml:lang="en">redo is a competitor to the long-lived make program.</Summary>
+        <Description xml:lang="en">redo is a competitor to the long-lived make program.
+</Description>
+        <PartOf>programming.tools</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/redo/atoi.py</Path>
+            <Path fileType="library">/usr/lib/redo/atoi.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/builder.py</Path>
+            <Path fileType="library">/usr/lib/redo/builder.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/deps.py</Path>
+            <Path fileType="library">/usr/lib/redo/deps.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/helpers.py</Path>
+            <Path fileType="library">/usr/lib/redo/helpers.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/jwack.py</Path>
+            <Path fileType="library">/usr/lib/redo/jwack.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/log.py</Path>
+            <Path fileType="library">/usr/lib/redo/log.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/options.py</Path>
+            <Path fileType="library">/usr/lib/redo/options.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_always.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_always.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_ifchange.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_ifchange.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_ifcreate.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_ifcreate.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_ood.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_ood.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_sources.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_sources.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_stamp.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_stamp.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_targets.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_targets.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/redo_unlocked.py</Path>
+            <Path fileType="library">/usr/lib/redo/redo_unlocked.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/sh</Path>
+            <Path fileType="library">/usr/lib/redo/state.py</Path>
+            <Path fileType="library">/usr/lib/redo/state.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/vars.py</Path>
+            <Path fileType="library">/usr/lib/redo/vars.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/vars_init.py</Path>
+            <Path fileType="library">/usr/lib/redo/vars_init.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/version/__init__.py</Path>
+            <Path fileType="library">/usr/lib/redo/version/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/redo/version/_version.py</Path>
+            <Path fileType="library">/usr/lib/redo/version/_version.pyc</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-05-07</Date>
+            <Version>0.11</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
